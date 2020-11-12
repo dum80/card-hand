@@ -7,7 +7,13 @@ def make_hand(num):
     Return:
         <Sequence> of randomly generated cards using get_card() 
     """
-    pass
+    hand = [] 
+    
+    for i in range(num):
+        hand.append(get_card())
+    
+    return deck 
+     
 
 
 # define function hand_value
